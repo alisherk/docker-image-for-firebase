@@ -1,4 +1,4 @@
-FROM node
+FROM node:erbium
 
 RUN apt-get update
 RUN apt-get upgrade -y
